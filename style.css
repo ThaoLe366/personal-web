@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,300;1,400&display=swap');
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+:root{
+    --pink-deep:#E93B81;
+    --pink-light:#FF96AD;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', 'sans-serif';
+}
+p{
+    font-size: 21px;
+    margin-bottom: none !important;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+.section-home{
+    height: 100vh;
+    width: 100%;
+    background-image:url('assets/background-terminal.jpg');
+    background-size: cover;
+    opacity: 0.8;
+    position: relative;
+}
+.section-home-title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--pink-deep);
+    background: -webkit-linear-gradient(to left, #E93B81 0%, #B6C9F0 50%, B6C9F0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+.section-profile{
+    background-color: #FF96AD;
+    height: 80vh;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.profile-title{
+    text-align: center;
+}
+.profile-header{
+    font-size: 24px;
+}
+.profile-value{
+  
+}
+.header-profile{
+    font-size: 44px;
+    font-weight: 100;
+  
+}
+.profile-content{
+    margin: auto 1rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle-image{
+    width: 100%;
+    max-width: 246px;
+    height: auto;
+}
+.section-education{
+    background-color: #FFF5FD;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    color: #022E57;
+}
+.education-item-info{
+    font-size: 16px;
+}
+.education-item-tag{
+    font-size: 15px;
+}
+.row-education{
+    margin-top: 1rem;
+}
+.link-github{
+    text-decoration: none;
+    color: #022E57;
+}
+.link-github:hover{
+    text-decoration: none;
+    color:#022E57 ;
+}
+.section-project{
+    height: 80vh;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.cards{
+    display: flex;
+}
+.card-img{
+
+}
+.section-contact{
+    background-color: #005A8D;
+    height: 80vh;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+.education-item-title{
+    font-size: 21px;
+    margin-top: 1.5rem;
+}
